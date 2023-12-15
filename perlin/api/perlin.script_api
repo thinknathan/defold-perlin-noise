@@ -1,0 +1,83 @@
+- name: Perlin
+  type: table
+  desc: "A native extension for Defold for generating perlin noise."
+  members:
+    - name: noise_1d
+      type: function
+      desc: "Generate 1D Perlin Noise."
+      parameters:
+        - name: x
+          type: number
+        - name: frequency
+          type: number
+        - name: amplitude
+          type: number
+        - name: octaveCount
+          type: number
+        - name: persistence
+          type: number
+      returns:
+        type: number
+
+    - name: noise_2d
+      type: function
+      desc: "Generate 2D Perlin Noise."
+      parameters:
+        - name: x
+          type: number
+        - name: y
+          type: number
+        - name: frequency
+          type: number
+        - name: amplitude
+          type: number
+        - name: octaveCount
+          type: number
+        - name: persistence
+          type: number
+      returns:
+        type: number
+
+    - name: noise_3d
+      type: function
+      desc: "Generate 3D Perlin Noise."
+      parameters:
+        - name: x
+          type: number
+        - name: y
+          type: number
+        - name: z
+          type: number
+        - name: frequency
+          type: number
+        - name: amplitude
+          type: number
+        - name: octaveCount
+          type: number
+        - name: persistence
+          type: number
+      returns:
+        type: number
+
+    - name: noise_4d
+      type: function
+      desc: "Generate 4D Perlin Noise."
+      parameters:
+        - name: x
+          type: number
+        - name: y
+          type: number
+        - name: z
+          type: number
+        - name: w
+          type: number
+        - name: frequency
+          type: number
+        - name: amplitude
+          type: number
+        - name: octaveCount
+          type: number
+        - name: persistence
+          type: number
+      returns:
+        type: number
